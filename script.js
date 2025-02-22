@@ -15,6 +15,7 @@ function abrirCaixa(){
 
     document.querySelector('button').style.display = 'none'; //esconde o botao abrir caixa
     document.getElementById('refaz').style.display = 'block'; //mostra o botao refazer
+    document.getElementById('pt2').style.display = 'block'; 
 }
 
 //funcao do bt refazer experimento

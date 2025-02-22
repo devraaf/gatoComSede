@@ -13,6 +13,14 @@
     justify-content: justify;
 }
 
+.texto{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(128, 206, 255, 0.53);
+    border-radius: 10px;
+}
+
 h1{
     align-self: center;
     margin-bottom: 20px;
@@ -73,4 +81,25 @@ button:hover{
     background-color:rgb(226, 172, 22);
     transition: 0.5s;
     border: 1px solid rgb(248, 228, 164);
+}
+
+
+
+.texto h1{
+    align-self: center;
+}
+
+#pt2{
+    display:none;
+    justify-items: center;
+}
+
+
+#titulo{
+    align-self: center;
+    margin-bottom: 20px;
+    font-family: "Indie Flower", serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(255, 182, 25);
 }
